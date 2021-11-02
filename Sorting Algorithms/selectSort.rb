@@ -1,7 +1,7 @@
 array = [64, 25, 12, 22, 11]
 
 class SelectSort
-    def selectSort arr 
+    def select_sort arr 
         n = arr.size - 1
 
         for i in 0..n

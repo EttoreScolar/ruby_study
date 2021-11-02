@@ -1,34 +1,35 @@
+# frozen_string_literal: true
+
 require 'date'
-arr = ["22/4/1233", "4/12/233", "1/3/633", "23/5/56645"]
 
-query = ["4/4/34234234"]
+arr = %w[22/4/1233 4/12/233 1/3/633 23/5/56645]
+query = ['4/4/34234234']
 
-def convertArrayToDate array 
-    for i in 0..(array.size-1)
-        array[i] = (Date.parse array[i]).strftime('%Q')
+class FindFutureDate
+  def convert_array_to_date(array)
+    (0..(array.size - 1)).each do |i|
+      array[i] = (Date.parse array[i]).strftime('%Q')
     end
     array.sort
-end
+  end
 
+  def search_next_closest_date(array_source, array_with_date)
+    return -1 if array_with_date.max > array_source.max
 
-
-def serachNextClosestDate arraySource, arrayWithDate
-
-   return -1 if arrayWithDate.max > arraySource.max
-   arrayTemp = []
-   arrayFinal = []
-   for i in 0..(arrayWithDate.size -1)
-        for j in 0..(arraySource.size-1)
-            arrayTemp[j].push (arrayWithDate[i] - arraySource[j]).abs
-        end
-        arrayFinal.push arrayTemp.min
-        arrayTemp.clear
+    array_temp = []
+    array_final = []
+    (0..(array_with_date.size - 1)).each do |i|
+      (0..(array_source.size - 1)).each do |j|
+        array_temp[j].push (array_with_date[i] - array_source[j]).abs
+      end
+      array_final.push array_temp.min
+      array_temp.clear
     end
-    return arrayFinal
+    array_final
+  end
 end
 
+source = convert_array_to_date arr
+target = convert_array_to_date query
 
-source = convertArrayToDate arr
-target = convertArrayToDate query
-
-puts serachNextClosestDate source, target
+puts FindFutureDate.new.search_next_closest_date source, target

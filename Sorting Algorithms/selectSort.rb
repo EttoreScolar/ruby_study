@@ -6,7 +6,7 @@ class SelectSort
 
         for i in 0..n
             min_ind = i
-            for j in (i+1)..n 
+            for j in (i+1)..n
                 min_ind = j if arr[j] < arr[min_ind]
             end
             arr[min_ind], arr[i] = arr[i], arr[min_ind]

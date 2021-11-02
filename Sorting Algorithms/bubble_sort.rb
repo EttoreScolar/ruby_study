@@ -1,19 +1,16 @@
 
 array = [5,4,2,1,6,8,7,9,0]
-
-def bubbleSort(arr)
-    arr.size.times do |i|
-        arr.size.times do |j|
-            if arr[i] < arr[j]
-                arr[i], arr[j] = arr[j], arr[i]
+class BubbleSort
+    def bubble_sort arr
+        n = arr.size - 1
+        for i in 0..n
+            for j in i..n
+                if arr[i] > arr[j]
+                    arr[i], arr[j] = arr[j], arr[i]
+                end
             end
         end
+        arr   
     end
-    arr
 end
-
-  
-
-array =  bubbleSort (array)
-
-puts array
+puts BubbleSort.new.bubble_sort array

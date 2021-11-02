@@ -7,7 +7,7 @@ class JumpSearch
         return value2 
     end
 
-    def jumpSearch arr, element 
+    def jump_search arr, element 
         n = arr.size
         step = Math.sqrt(n).floor()
         prev = 0
@@ -27,4 +27,4 @@ class JumpSearch
     end
 end
 
-puts JumpSearch.new.jumpSearch array, x
+puts JumpSearch.new.jump_search array, x

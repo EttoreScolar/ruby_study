@@ -2,7 +2,7 @@
 arr = [1, 2, 4, 6, 3, 7, 8]
 
 class FindMissingNumber
-    def findMissingNumber array 
+    def find_missing_number array 
         array.sort!
         n = array.size - 1
 
@@ -13,4 +13,4 @@ class FindMissingNumber
     end
 end
 
-puts FindMissingNumber.new.findMissingNumber arr
+puts FindMissingNumber.new.find_missing_number arr

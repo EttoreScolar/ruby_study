@@ -1,16 +1,18 @@
-array = [-1,-1,-2,4,3]
+array = [-1, -1, -2, 4, 3]
 
-def minimumProduct arr
-    
+class MinimumProduct
+  def minimum_product(arr)
+
     return arr[0] if arr.size == 1
-    return 0 if arr.max == 0
+
+    return 0 if arr.max.zero?
+
     product = 1
-    for i in 0..(arr.size - 1)
-        if arr[i] != 0
-            product *= arr[i]
-        end
+    (0..(arr.size - 1)).each do |i|
+      product *= arr[i] if arr[i] != 0
     end
-    return product
+    product
+  end
 end
 
-puts minimumProduct array
+puts MinimumProduct.new.minimum_product array

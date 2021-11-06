@@ -14,3 +14,5 @@ class Pangram
 end
 
 puts Pangram.new.pangram string
+
+

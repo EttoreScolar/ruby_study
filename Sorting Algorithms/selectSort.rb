@@ -15,5 +15,4 @@ class SelectSort
   end
 end
 
-puts SelectSort.new.selectSort array
-
+puts SelectSort.new.select_sort array

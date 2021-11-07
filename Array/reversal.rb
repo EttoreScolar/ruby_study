@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 arr = [121, 232, 33, 43, 5]
 
 class Reversal
@@ -20,4 +21,3 @@ class Reversal
 end
 
 puts Reversal.new.right_rotate(arr, 3, arr.size)
-

@@ -1,25 +1,26 @@
-
-
 array = [-2, 0, 5, -1, 2]
 
-def maximizeSum arr, k
+class MaximizeSum
+  def maximize_sum(arr, k)
     n = arr.size
-    max = 10000
-    for i in 0..k
-        min = max
-        index = -1
-        n.times do |j|
-            min, index = arr[j], j if arr[j] < min
-        end
-        break if min == 0
-        arr[index] = -arr[index]
+    max = 10_000
+    (0..k).each do |i|
+      min = max
+      index = -1
+      n.times do |j|
+        min, index = arr[j], j if arr[j] < min
+      end
+      break if min.zero?
+
+      arr[index] = -arr[index]
     end
-    sum = 0 
+    sum = 0
     n.times do |i|
-        sum = sum + arr[i]
+      sum += arr[i]
     end
-    return sum
+    sum
+  end
 end
 
 k = 4
-puts maximizeSum array, k
+puts MaximizeSum.new.maximize_sum array, k

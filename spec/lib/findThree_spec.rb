@@ -15,6 +15,6 @@ describe FindThree do
   it 'succeeds' do
     arr = [12, 13, 1, 10, 34, 1]
     find_three = FindThree.new.show_3_largest(arr)
-    expect([34, 13, 12]).eql? find_three
+    assert ([12, 13, 34]).eql? find_three
   end
 end

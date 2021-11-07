@@ -12,6 +12,6 @@ describe MinSum do
   it 'succeeds' do
     array = [1, 2, 3, 4, 56, 7, 88, 9]
     result = MinSum.new.min_sum array
-    expect(7).eql? result
+    assert 7.eql? result
   end
 end

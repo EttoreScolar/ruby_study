@@ -22,5 +22,3 @@ class FindThree
     [third, second, first]
   end
 end
-
-puts FindThree.new.show_3_largest(arr)

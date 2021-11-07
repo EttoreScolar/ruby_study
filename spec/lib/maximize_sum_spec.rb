@@ -15,6 +15,6 @@ describe MaximizeSum do
   it 'succeeds' do
     array = [-2, 0, 5, -1, 2]
     result = MaximizeSum.new.maximize_sum array, 4
-    expect(10).eql? result
+    assert 10.eql? result
   end
 end

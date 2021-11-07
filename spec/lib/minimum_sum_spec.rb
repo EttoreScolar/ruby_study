@@ -19,7 +19,7 @@ describe MinimumSum do
     n = a.size - 1
     k = 3
     result = MinimumSum.new.min_product a, b, n, k
-    expect(25).eql? result
+    assert 25.eql? result
   end
 
 end

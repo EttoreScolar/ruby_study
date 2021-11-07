@@ -37,11 +37,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Ruby.quick_sort">
-    <configuration name="mergeSort" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+  <component name="RunManager" selected="Ruby.fibonacci_search">
+    <configuration name="fibonacci_search" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby_study" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Sorting Algorithms" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/SearchingAlgorithms" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -53,7 +53,7 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Sorting Algorithms/mergeSort.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/SearchingAlgorithms/fibonacci_search.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
@@ -95,7 +95,7 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="merge_sort_spec.rb" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+    <configuration name="quick_sort_spec.rb" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="ruby_study" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib" />
@@ -115,8 +115,8 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/lib/merge_sort_spec.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="$MODULE_DIR$/spec/lib/merge_sort_spec.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/lib/quick_sort_spec.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="$MODULE_DIR$/spec/lib/quick_sort_spec.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Ruby.fibonacci_search" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.quick_sort_spec.rb" />
         <item itemvalue="Ruby.quick_sort" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.select_sort_spec.rb" />
         <item itemvalue="Ruby.selectSort" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.merge_sort_spec.rb" />
-        <item itemvalue="Ruby.mergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636292438465</updated>
-      <workItem from="1636292445612" duration="7486000" />
+      <workItem from="1636292445612" duration="8339000" />
     </task>
     <servers />
   </component>
@@ -248,10 +248,11 @@
     <SUITE FILE_PATH="coverage/ruby_study@calculate_age_spec_rb.rcov" NAME="calculate_age_spec.rb Coverage Results" MODIFIED="1636297019527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_study" />
     <SUITE FILE_PATH="coverage/ruby_study@binary_search_spec_rb.rcov" NAME="binary_search_spec.rb Coverage Results" MODIFIED="1636296765877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_study" />
     <SUITE FILE_PATH="coverage/ruby_study@min_sum_spec_rb.rcov" NAME="min_sum_spec.rb Coverage Results" MODIFIED="1636297054995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_study" />
-    <SUITE FILE_PATH="coverage/ruby_study@quick_sort.rcov" NAME="quick_sort Coverage Results" MODIFIED="1636299924168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sorting Algorithms" MODULE_NAME="ruby_study" />
+    <SUITE FILE_PATH="coverage/ruby_study@quick_sort.rcov" NAME="quick_sort Coverage Results" MODIFIED="1636300148559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sorting Algorithms" MODULE_NAME="ruby_study" />
     <SUITE FILE_PATH="coverage/ruby_study@findMissingNumber.rcov" NAME="findMissingNumber Coverage Results" MODIFIED="1636297407975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SearchingAlgorithms" MODULE_NAME="ruby_study" />
     <SUITE FILE_PATH="coverage/ruby_study@linearSearch.rcov" NAME="linearSearch Coverage Results" MODIFIED="1636297971253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SearchingAlgorithms" MODULE_NAME="ruby_study" />
     <SUITE FILE_PATH="coverage/ruby_study@linear_search_spec_rb.rcov" NAME="linear_search_spec.rb Coverage Results" MODIFIED="1636298053411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_study" />
+    <SUITE FILE_PATH="coverage/ruby_study@quick_sort_spec_rb.rcov" NAME="quick_sort_spec.rb Coverage Results" MODIFIED="1636300273406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_study" />
     <SUITE FILE_PATH="coverage/ruby_study@minSum.rcov" NAME="minSum Coverage Results" MODIFIED="1636296018162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GreedyAlgorithms" MODULE_NAME="ruby_study" />
     <SUITE FILE_PATH="coverage/ruby_study@maximizeSum.rcov" NAME="maximizeSum Coverage Results" MODIFIED="1636294782043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GreedyAlgorithms" MODULE_NAME="ruby_study" />
     <SUITE FILE_PATH="coverage/ruby_study@merge_sort_spec_rb.rcov" NAME="merge_sort_spec.rb Coverage Results" MODIFIED="1636298444951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_study" />

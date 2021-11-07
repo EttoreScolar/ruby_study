@@ -15,9 +15,7 @@ class BinarySearch
       end
       i = (i + max) / 2
     end
-
     -1
   end
 end
 
-puts BinarySearch.new.binary_search array, x

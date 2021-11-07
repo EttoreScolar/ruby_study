@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c42e2d72-9009-4e13-9e91-5d4e598106c9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c42e2d72-9009-4e13-9e91-5d4e598106c9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +12,8 @@
       <list>
         <option value="Minitest" />
         <option value="RBS File" />
-        <option value="Minitest Spec" />
         <option value="Ruby File" />
+        <option value="Minitest Spec" />
       </list>
     </option>
   </component>
@@ -176,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636292438465</updated>
-      <workItem from="1636292445612" duration="8339000" />
+      <workItem from="1636292445612" duration="8649000" />
     </task>
     <servers />
   </component>
@@ -261,6 +259,7 @@
     <SUITE FILE_PATH="coverage/ruby_study@select_sort_spec_rb.rcov" NAME="select_sort_spec.rb Coverage Results" MODIFIED="1636298615342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_study" />
     <SUITE FILE_PATH="coverage/ruby_study@minimumProduct.rcov" NAME="minimumProduct Coverage Results" MODIFIED="1636295010122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GreedyAlgorithms" MODULE_NAME="ruby_study" />
     <SUITE FILE_PATH="coverage/ruby_study@selectSort.rcov" NAME="selectSort Coverage Results" MODIFIED="1636298501056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sorting Algorithms" MODULE_NAME="ruby_study" />
+    <SUITE FILE_PATH="coverage/ruby_study@fibonacci_search.rcov" NAME="fibonacci_search Coverage Results" MODIFIED="1636301055353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SearchingAlgorithms" MODULE_NAME="ruby_study" />
     <SUITE FILE_PATH="coverage/ruby_study@jump_search_spec_rb.rcov" NAME="jump_search_spec.rb Coverage Results" MODIFIED="1636297872580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_study" />
     <SUITE FILE_PATH="coverage/ruby_study@reversal_spec_rb.rcov" NAME="reversal_spec.rb Coverage Results" MODIFIED="1636297340614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_study" />
     <SUITE FILE_PATH="coverage/ruby_study@calculateAge.rcov" NAME="calculateAge Coverage Results" MODIFIED="1636294340431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Date" MODULE_NAME="ruby_study" />

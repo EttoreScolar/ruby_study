@@ -29,7 +29,7 @@ class FindFutureDate
   end
 end
 
-source = convert_array_to_date arr
-target = convert_array_to_date query
+source = FindFutureDate.new.convert_array_to_date arr
+target = FindFutureDate.new.convert_array_to_date query
 
 puts FindFutureDate.new.search_next_closest_date source, target

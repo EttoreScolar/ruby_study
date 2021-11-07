@@ -1,7 +1,6 @@
-
 a = [2, 3, 4, 5, 4]
 b = [3, 4, 2, 3, 2]
-n = a.size
+n = a.size - 1
 k = 3
 class MinimumSum 
   def min_product(a, b, n, k)
@@ -22,8 +21,8 @@ class MinimumSum
       end
       d = (pro - temp).abs
       diff = d if d > diff
-      res - diff
     end
+    res - diff
   end
 end
 
